@@ -17,10 +17,12 @@ build:
 
 requirements:
   build:
-    - python
-    - pip
-    - toolchain
+    - {{ compiler('c') }}
     - posix               # [win]
+
+  host:
+    - python
+    - setuptools
     - cython
     - yaml
 
@@ -46,3 +48,4 @@ about:
 extra:
   recipe-maintainers:
     - jakirkham
+    - mingwandroid
