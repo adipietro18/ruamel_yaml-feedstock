@@ -42,6 +42,12 @@ about:
   license_family: MIT
   license_file: LICENSE
   summary: A patched copy of ruamel.yaml.
+  
+  description: |
+    ruamel.yaml is a YAML 1.2 loader/dumper package for Python.
+  doc_url: http://yaml.readthedocs.io/en/latest/overview.html
+  dev_url: https://bitbucket.org/ruamel/yaml/src
+  doc_source_url: https://bitbucket.org/ruamel/yaml/src/default/_doc/?at=default
 
 extra:
   recipe-maintainers:
