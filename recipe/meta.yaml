@@ -10,7 +10,7 @@ source:
   sha256: 69bec987b5ac6ecf360c091e264e80b40df8fb004c394f730e30e79fdd91beec
   patches:
     - ordereddict_test.patch
-      
+
 build:
   number: 0
   no_link: .*\.(pyd|dll)  # [win]
