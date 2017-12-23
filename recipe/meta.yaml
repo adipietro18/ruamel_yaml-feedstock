@@ -1,4 +1,4 @@
-{% set version = "0.11.14" %}
+{% set version = "0.14.12" %}
 
 package:
   name: ruamel_yaml
@@ -7,12 +7,12 @@ package:
 source:
   fn: ruamel_yaml-{{ version }}.tar.gz
   url: https://bitbucket.org/ruamel/yaml/get/{{ version }}.tar.gz
-  sha256: b78d394e192b6d0911bd59f794ceea88143fac4e373b76ed7e48143a2a29b33c
+  sha256: 4cc1a406f6463e72b4c39f10da487501e3cad7d3256f430ae8b2666bc7c967b7
   patches:
     - ordereddict_test.patch
 
 build:
-  number: 2
+  number: 0
   no_link: .*\.(pyd|dll)  # [win]
 
 requirements:
@@ -44,7 +44,7 @@ about:
   license_family: MIT
   license_file: LICENSE
   summary: A patched copy of ruamel.yaml.
-  
+
   description: |
     ruamel.yaml is a YAML 1.2 loader/dumper package for Python.
   doc_url: http://yaml.readthedocs.io/en/latest/overview.html
