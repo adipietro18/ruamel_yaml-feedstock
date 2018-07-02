@@ -13,7 +13,7 @@ source:
     - ordereddict_test.patch
 
 build:
-  number: 2
+  number: 0
   no_link: .*\.(pyd|dll)  # [win]
 
 requirements:
