@@ -1,4 +1,4 @@
-{% set version = "0.15.61" %}
+{% set version = "0.15.64" %}
 # The version_info tuple in __init__.py must also be updated
 
 package:
@@ -8,7 +8,7 @@ package:
 source:
   fn: ruamel_yaml-{{ version }}.tar.gz
   url: https://bitbucket.org/ruamel/yaml/get/{{ version }}.tar.gz
-  sha256: 878602e466fbe99b3a132e77305663afc1ee3fa0569709c68c9d84914a053bd4
+  sha256: 8a251f47129082b32bd4eb2615967fa465320056e306cbdc34f2c7994942f3a1
 
 build:
   number: 0
