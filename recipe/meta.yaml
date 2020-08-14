@@ -6,10 +6,9 @@ package:
   version: {{ version }}
 
 source:
-  fn: ruamel_yaml-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-{{ version }}.tar.gz
   sha256: a736ab1d8c2d5566254a1a2ee38e7c5460520bcccd4a8f0feb25a4463735e5a7
-  patches:
+    patches:
     - CVE-2019-20478.patch
 
 build:
